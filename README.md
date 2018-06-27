@@ -5,4 +5,4 @@ Welcome to Wernerware video notes, where you will find extended information on t
 
 ## Upcoming
 
-- [Obfuscation and the Puzzles of De-obfuscation](/obfuscation)/README.md: Java developers frequently use obfuscation to make it harder for others to take apart and change their code.  In this video I show you how to use ProGuard to obfuscate a .jar file and describe some of your options using Fernflower and Eclipse to begin taking it back apart.
+- [Obfuscation and the Puzzles of De-obfuscation](/obfuscation/README.md): Java developers frequently use obfuscation to make it harder for others to take apart and change their code.  In this video I show you how to use ProGuard to obfuscate a .jar file and describe some of your options using Fernflower and Eclipse to begin taking it back apart.
