@@ -1,0 +1,3 @@
+# Obfuscation and the Puzzles of De-obfuscation
+
+Obfuscation is a common part of many build processes, especially in Android builds using ProGuard.  You can use ProGuard with any project generating zipped archives though, and it can be a good idea if you want to discourage abuse of your software.  De-obfuscation can be a daunting task, but sometimes a necessary one for purposes such as digital forensics and the prospect of a challenge for its own sake.  This video will show you the relationship between the everyday tasks a developer does and the process of finding meaning in the intentional mess left behind by a good obfuscator.
