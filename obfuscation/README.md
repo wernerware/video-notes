@@ -25,10 +25,9 @@ First, in order to demonstrate that something is actually happening when we run 
 
 Now that we have a way to refer back to the unmodified artifact, we can proceed to examine the obfuscated artifact.  Just to show you an interesting hiccup that you will commonly see, let's just attempt to unzip the obfuscated jar:
 ```bash
-Daniels-Mac-mini:test_1_out arachtivix$ unzip 
+unzip commons-collections4-4.1_OBFUSCATED.jar 
 ```
 ```bash
-commons-collections4-4.1_OBFUSCATED.jar 
 Archive:  commons-collections4-4.1_OBFUSCATED.jar
   inflating: META-INF/MANIFEST.MF    
   inflating: META-INF/NOTICE.txt     
@@ -61,10 +60,9 @@ java -jar ~/fernflower.jar -ren=1 commons-collections4-4.1_OBFUSCATED.jar test_2
 According to the [Fernflower Github page](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler/engine), the purpose of this argument is to "rename ambiguous (resp. obfuscated) classes and class elements."  We can see the effect by unzipping the results:
 
 ```bash
-Daniels-Mac-mini:test_2_out arachtivix$ unzip
+unzip commons-collections4-4.1_OBFUSCATED.jar 
 ```
 ```bash
-commons-collections4-4.1_OBFUSCATED.jar 
 Archive:  commons-collections4-4.1_OBFUSCATED.jar
   inflating: META-INF/MANIFEST.MF    
   inflating: META-INF/NOTICE.txt     
@@ -91,7 +89,7 @@ Fernflower has taken the obfuscated class files and renamed them as it traversed
 So now that we have the code formatted textually once again, we can import it into an IDE and start looking for the information we need.  This is where the creativity can come in.  For instance, a quick way to look for interesting things is to search for string literals.  Generally you're going to find whatever string literals are in a given app are not changed.  I found it's pretty easy to search with a simple regular expression with grep:
 
 ```bash
-Daniels-Mac-mini:test_1_out arachtivix$ grep -rn '\".*\"' .
+grep -rn '\".*\"' .
 ```
 ```bash
 Binary file ./commons-collections4-4.1_OBFUSCATED.jar matches
