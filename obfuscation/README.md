@@ -16,9 +16,71 @@ Open up the 'lib' folder and double click on proguardgui.jar.  After any warning
 
 ![ProGuard GUI Front Page](images/proguard_gui_frontpage.png)
 
+For the purposes of this tutorial, you should uncheck shrinking, so that you can see the effects of obfuscation on their own:
 
+![No Shrinking](images/no_shrinking.png)
 
+Of course you will want to ensure that obfuscation is enabled:
 
+![Yes Obfuscation](images/yes_obfuscation.png)
+
+Similarly to the shrinking option, for the purposes of this demonstration you will want to disable optimization:
+
+![No Optimization](images/no_optimization.png)
+
+Finally, you will need to specify the inputs and outputs.  Library jars and other supporting files are included in the second section to cue the tool as to which identifiers in the code will not be touched by the process; they are external to the artifacts we are minifying, and therefore need to remain the same.  The first section is a sequence of inputs with their corresponding outputs.
+
+It's important to specify an output, otherwise the tool will process the jar and exit without recording the results.  It's a tree-falls-in-the-woods situation.  You will need to specify an actual existing file for the output, but this will be overwritten.  The easiest way to accomplish this is to copy the artifact you are obfuscating with a big _OBFUSCATED appended so that you can remember which is which, and believe me, when it's a manual process you will need this:
+
+```bash
+cp commons-collections4-4.1.jar commons-collections4-4.1_OBFUSCATED.jar
+```
+
+You will need to clock "Add input" to get the unobfuscated jar onto the list, then click on that list item so that it is highlighted, and click "Add output", selecting your copied jar for that.
+
+![Input/Output](images/input-output.png)
+
+Finally you can go ahead and hit 'Process!' on the Process tab.
+
+One common issue is if you get the following rather large log output:
+
+```
+ProGuard, version 6.0.3
+Reading program jar [/Users/arachtivix/video-notes/obfuscation/commons-collections4-4.1.jar]
+Note: the configuration refers to the unknown class 'java.lang.String'
+Note: the configuration refers to the unknown class 'java.lang.String'
+Note: the configuration refers to the unknown class 'java.sql.Driver'
+Note: the configuration refers to the unknown class 'javax.swing.plaf.ComponentUI'
+Note: the configuration refers to the unknown class 'javax.swing.plaf.ComponentUI'
+Note: the configuration refers to the unknown class 'javax.swing.JComponent'
+Note: the configuration refers to the unknown class 'java.lang.System'
+Note: the configuration refers to the unknown class 'java.lang.Class'
+Note: the configuration refers to the unknown class 'java.lang.Object'
+Note: the configuration refers to the unknown class 'java.lang.SecurityManager'
+Note: the configuration refers to the unknown class 'java.util.Properties'
+... More 'Notes' ...
+Warning: org.apache.commons.collections4.ArrayStack: can't find superclass or interface java.util.ArrayList
+Warning: org.apache.commons.collections4.Bag: can't find superclass or interface java.lang.Object
+Warning: org.apache.commons.collections4.Bag: can't find superclass or interface java.util.Collection
+Warning: org.apache.commons.collections4.BagUtils: can't find superclass or interface java.lang.Object
+Warning: org.apache.commons.collections4.BidiMap: can't find superclass or interface java.lang.Object
+... More 'Warnings' ...
+Note: there were 173 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Warning: there were 23931 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Warning: there were 37 unresolved references to program class members.
+         Your input classes appear to be inconsistent.
+         You may need to recompile the code.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedprogramclassmember)
+Please correct the above warnings first.
+```
+
+If you are getting this, it's most likely because you did not specify a valid path for __rt.jar__, which contains the runtime classes for java itself.  You will need to find the JRE within your computer and specify the full path to __rt.jar__, which will be in the lib folder inside the jre associated with your jdk.  I had a brief look at the Java 10 JDK, which I had originally installed, but does not seem to follow the same conventions.  Instead, for this project I downgraded to 8.
 
 ## Decompilation
 First, in order to demonstrate that something is actually happening when we run the obfuscator, we should decompile the artifact we had before obfuscation.   I did this here in the __control_out/__ folder, as it represents the control case for our tests.
