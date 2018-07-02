@@ -83,6 +83,9 @@ Please correct the above warnings first.
 If you are getting this, it's most likely because you did not specify a valid path for __rt.jar__, which contains the runtime classes for java itself.  You will need to find the JRE within your computer and specify the full path to __rt.jar__, which will be in the lib folder inside the jre associated with your jdk.  I had a brief look at the Java 10 JDK, which I had originally installed, but does not seem to follow the same conventions.  Instead, for this project I downgraded to 8.
 
 ## Decompilation
+
+Prerequisite: [Fernflower basics video](https://www.youtube.com/watch?v=YiaglbXbTbQ) ([and notes](/fernflower/README.md))
+
 First, in order to demonstrate that something is actually happening when we run the obfuscator, we should decompile the artifact we had before obfuscation.   I did this here in the __control_out/__ folder, as it represents the control case for our tests.
 
 Now that we have a way to refer back to the unmodified artifact, we can proceed to examine the obfuscated artifact.  Just to show you an interesting hiccup that you will commonly see, let's just attempt to unzip the obfuscated jar:
