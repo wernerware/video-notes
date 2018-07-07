@@ -6,7 +6,7 @@ I have added the files discussed here to this part of the repository so you can 
 
 ## Running ProGuard Manually
 
-Normally in a professional software project you will see obfuscation performed by the automated release build.  This is more typical for the front end and is an integrated part of Android builds, but for the purposes of learning about ProGuard, it's easier to use the executable jar with a graphical interface.
+Normally in a professional software project you will see obfuscation performed by the automated release build.  This is more typical for javascript code on the front end of a web app, but it is also an integrated part of some java applications, for example in Android builds.  ProGuard is one of a number of options available for Java, and is probably the most popular because it is free.  For the purposes of learning about ProGuard, it's easier to use the executable jar with a graphical interface.
 
 To start, go to the [project page on SourceForge](https://sourceforge.net/projects/proguard/) and click download. This will give you the latest proguard zip.  Expand this zip to a convenient location:
 
@@ -28,7 +28,7 @@ Similarly to the shrinking option, for the purposes of this demonstration you wi
 
 ![No Optimization](images/no_optimization.png)
 
-Finally, you will need to specify the inputs and outputs.  Library jars and other supporting files are included in the second section to cue the tool as to which identifiers in the code will not be touched by the process; they are external to the artifacts we are minifying, and therefore need to remain the same.  The first section is a sequence of inputs with their corresponding outputs.
+You will need to specify the inputs and outputs.  Library jars and other supporting files are included in the second section to cue the tool as to which identifiers in the code will not be touched by the process; they are external to the artifacts we are obfuscating, and therefore need to remain the same.  The first section is a sequence of inputs with their corresponding outputs.
 
 It's important to specify an output, otherwise the tool will process the jar and exit without recording the results.  It's a tree-falls-in-the-woods situation.  You will need to specify an actual existing file for the output, but this will be overwritten.  The easiest way to accomplish this is to copy the artifact you are obfuscating with a big _OBFUSCATED appended so that you can remember which is which, and believe me, when it's a manual process you will need this:
 
@@ -36,7 +36,7 @@ It's important to specify an output, otherwise the tool will process the jar and
 cp commons-collections4-4.1.jar commons-collections4-4.1_OBFUSCATED.jar
 ```
 
-You will need to clock "Add input" to get the unobfuscated jar onto the list, then click on that list item so that it is highlighted, and click "Add output", selecting your copied jar for that.
+You will need to click "Add input" to get the unobfuscated jar onto the list, then click on that list item so that it is highlighted, and click "Add output", selecting your copied jar for that.
 
 ![Input/Output](images/input-output.png)
 
@@ -147,11 +147,11 @@ Archive:  commons-collections4-4.1_OBFUSCATED.jar
   inflating: org/a/a/a/class_414.java
 ```
 
-Fernflower has taken the obfuscated class files and renamed them as it traversed the artifact in a fashion that is friendlier to the OS, so we can unzip the artifact now.  They're still amost completely meaningless, but at least now they can get into the file system.
+Fernflower has taken the obfuscated class files and renamed them as it traversed the artifact in a fashion that is friendlier to the OS, so we can unzip the artifact now.  They're still almost completely meaningless, but at least now they can get into the file system.
 
 ## De-obfuscation and refactoring tools
 
-So now that we have the code formatted textually once again, we can import it into an IDE and start looking for the information we need.  This is where the creativity can come in.  For instance, a quick way to look for interesting things is to search for string literals.  Generally you're going to find whatever string literals are in a given app are not changed.  I found it's pretty easy to search with a simple regular expression with grep:
+So now that we have the code formatted textually once again, we can import it into an IDE and start looking for the information we need.  This is where creativity can come in.  For instance, a quick way to look for interesting things is to search for string literals.  Generally you're going to find whatever string literals are in a given app are not changed by the obfuscation process.  I found it's pretty easy to search with a simple regular expression with grep:
 
 ```bash
 grep -rn '\".*\"' .
@@ -222,7 +222,7 @@ grep -rh import . | sort | uniq -c | sort
  207 import java.util.Iterator;
 ```
 
-Iterator seems very popular, which make senese for Commons Collections, but that's a class provided by the Java runtime.  We are more curious about the ones like __org.a.a.a.class_1__.  If we run the same import check against our control, we will see that this might be _org.apache.commons.collections4.Predicate_ or _org.apache.commons.collections4.Transformer_ or one of the other well used classes in the unobfuscated version:
+Iterator seems very popular, which make sense for Commons Collections, but that's a class provided by the Java runtime.  We are more curious about the ones like __org.a.a.a.class_1__.  If we run the same import check against our control, we will see that this might be _org.apache.commons.collections4.Predicate_ or _org.apache.commons.collections4.Transformer_ or one of the other well used classes in the unobfuscated version:
 
 ```
   25 import java.util.ListIterator;
@@ -247,4 +247,4 @@ Or maybe it's not.  Who knows?  You can see the counts don't match up even for t
 
 Finally, another approach is to look for familiar elements and refactor the decompiled code with more meaningful or guess-based names as you read the code until a bigger picture starts to come together.
 
-You can open up the project in Eclipse, as I demonstrated in the [Fernflower basics video](https://www.youtube.com/watch?v=YiaglbXbTbQ) ([and notes](/fernflower/README.md)).  Using the refactoring tools, you can programmatically rename class_1 to whatever you'd like, across the entire code base.  This in turn may yield insignts into other areas of the code, and so on.
+You can open up the project in Eclipse, as I demonstrated in the [Fernflower basics video](https://www.youtube.com/watch?v=YiaglbXbTbQ) ([and notes](/fernflower/README.md)).  Using the refactoring tools, you can programmatically rename class_1 to whatever you'd like, across the entire code base.  This in turn may yield insights into other areas of the code, and so on.
