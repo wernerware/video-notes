@@ -2,7 +2,7 @@ package org.a.a.a.i;
 
 import java.util.Comparator;
 import java.util.SortedMap;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.i.aF
 public class class_138 extends class_137 implements SortedMap {
@@ -10,11 +10,11 @@ public class class_138 extends class_137 implements SortedMap {
    private static final long field_146 = 3359846175935304332L;
 
    // $FF: renamed from: a (java.util.SortedMap, org.a.a.a.an, org.a.a.a.an) org.a.a.a.i.aF
-   public static class_138 method_376(SortedMap var0, class_1 var1, class_1 var2) {
+   public static class_138 method_376(SortedMap var0, APPARENTLY_REALLY_IMPORTANT var1, APPARENTLY_REALLY_IMPORTANT var2) {
       return new class_138(var0, var1, var2);
    }
 
-   protected class_138(SortedMap var1, class_1 var2, class_1 var3) {
+   protected class_138(SortedMap var1, APPARENTLY_REALLY_IMPORTANT var2, APPARENTLY_REALLY_IMPORTANT var3) {
       super(var1, var2, var3);
    }
 

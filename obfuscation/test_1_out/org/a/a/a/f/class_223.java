@@ -2,14 +2,14 @@ package org.a.a.a.f;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.f.s
 public class class_223 implements Iterator {
    // $FF: renamed from: a java.util.Iterator
    private Iterator field_321;
    // $FF: renamed from: b org.a.a.a.an
-   private class_1 field_322;
+   private APPARENTLY_REALLY_IMPORTANT field_322;
    // $FF: renamed from: c java.lang.Object
    private Object field_323;
    // $FF: renamed from: d boolean
@@ -22,7 +22,7 @@ public class class_223 implements Iterator {
       this.field_321 = var1;
    }
 
-   public class_223(Iterator var1, class_1 var2) {
+   public class_223(Iterator var1, APPARENTLY_REALLY_IMPORTANT var2) {
       this.field_321 = var1;
       this.field_322 = var2;
    }
@@ -61,12 +61,12 @@ public class class_223 implements Iterator {
    }
 
    // $FF: renamed from: b () org.a.a.a.an
-   public class_1 method_578() {
+   public APPARENTLY_REALLY_IMPORTANT method_578() {
       return this.field_322;
    }
 
    // $FF: renamed from: a (org.a.a.a.an) void
-   public void method_579(class_1 var1) {
+   public void method_579(APPARENTLY_REALLY_IMPORTANT var1) {
       this.field_322 = var1;
       this.field_323 = null;
       this.field_324 = false;

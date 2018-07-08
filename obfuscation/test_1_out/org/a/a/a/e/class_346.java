@@ -1,19 +1,19 @@
 package org.a.a.a.e;
 
 import java.io.Serializable;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_21;
 import org.a.a.a.class_427;
 
 // $FF: renamed from: org.a.a.a.e.ac
-public final class class_346 implements Serializable, class_1 {
+public final class class_346 implements Serializable, APPARENTLY_REALLY_IMPORTANT {
    // $FF: renamed from: a long
    private static final long field_577 = -2407966402920578741L;
    // $FF: renamed from: b org.a.a.a.aI
    private final class_21 field_578;
 
    // $FF: renamed from: a (org.a.a.a.aI) org.a.a.a.an
-   public static class_1 method_879(class_21 var0) {
+   public static APPARENTLY_REALLY_IMPORTANT method_879(class_21 var0) {
       if (var0 == null) {
          throw new NullPointerException("The transformer to call must not be null");
       } else {

@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.c.class_81;
 
 // $FF: renamed from: org.a.a.a.h.p
@@ -13,11 +13,11 @@ public class class_82 extends class_81 implements List {
    private static final long field_73 = -5722039223898659102L;
 
    // $FF: renamed from: a (java.util.List, org.a.a.a.an) org.a.a.a.h.p
-   public static class_82 method_172(List var0, class_1 var1) {
+   public static class_82 method_172(List var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return new class_82(var0, var1);
    }
 
-   protected class_82(List var1, class_1 var2) {
+   protected class_82(List var1, APPARENTLY_REALLY_IMPORTANT var2) {
       super(var1, var2);
    }
 

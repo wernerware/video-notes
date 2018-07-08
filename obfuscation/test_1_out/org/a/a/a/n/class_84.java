@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.Set;
 import java.util.SortedSet;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.n.m
 public class class_84 extends class_83 implements SortedSet {
@@ -12,11 +12,11 @@ public class class_84 extends class_83 implements SortedSet {
    private static final long field_75 = -9110948148132275052L;
 
    // $FF: renamed from: a (java.util.SortedSet, org.a.a.a.an) org.a.a.a.n.m
-   public static class_84 method_178(SortedSet var0, class_1 var1) {
+   public static class_84 method_178(SortedSet var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return new class_84(var0, var1);
    }
 
-   protected class_84(SortedSet var1, class_1 var2) {
+   protected class_84(SortedSet var1, APPARENTLY_REALLY_IMPORTANT var2) {
       super(var1, var2);
    }
 

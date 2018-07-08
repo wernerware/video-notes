@@ -2,7 +2,7 @@ package org.a.a.a.a;
 
 import java.util.Collection;
 import java.util.Set;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_22;
 import org.a.a.a.c.class_81;
 
@@ -12,11 +12,11 @@ public class class_88 extends class_81 implements class_22 {
    private static final long field_79 = -2575833140344736876L;
 
    // $FF: renamed from: a (org.a.a.a.b, org.a.a.a.an) org.a.a.a.a.i
-   public static class_88 method_186(class_22 var0, class_1 var1) {
+   public static class_88 method_186(class_22 var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return new class_88(var0, var1);
    }
 
-   protected class_88(class_22 var1, class_1 var2) {
+   protected class_88(class_22 var1, APPARENTLY_REALLY_IMPORTANT var2) {
       super(var1, var2);
    }
 

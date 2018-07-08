@@ -53,7 +53,7 @@ public class class_341 {
    }
 
    // $FF: renamed from: a (org.a.a.a.an) org.a.a.a.aI
-   public static class_21 method_855(class_1 var0) {
+   public static class_21 method_855(APPARENTLY_REALLY_IMPORTANT var0) {
       return class_271.method_638(var0);
    }
 
@@ -73,27 +73,27 @@ public class class_341 {
    }
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.aI) org.a.a.a.aI
-   public static class_21 method_859(class_1 var0, class_21 var1) {
+   public static class_21 method_859(APPARENTLY_REALLY_IMPORTANT var0, class_21 var1) {
       return class_258.method_614(var0, var1);
    }
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.aI, org.a.a.a.aI) org.a.a.a.aI
-   public static class_21 method_860(class_1 var0, class_21 var1, class_21 var2) {
+   public static class_21 method_860(APPARENTLY_REALLY_IMPORTANT var0, class_21 var1, class_21 var2) {
       return class_258.method_613(var0, var1, var2);
    }
 
    // $FF: renamed from: b (org.a.a.a.an, org.a.a.a.aI, org.a.a.a.aI) org.a.a.a.aI
-   public static class_21 method_861(class_1 var0, class_21 var1, class_21 var2) {
-      return class_266.method_628(new class_1[]{var0}, new class_21[]{var1}, var2);
+   public static class_21 method_861(APPARENTLY_REALLY_IMPORTANT var0, class_21 var1, class_21 var2) {
+      return class_266.method_628(new APPARENTLY_REALLY_IMPORTANT[]{var0}, new class_21[]{var1}, var2);
    }
 
    // $FF: renamed from: a (org.a.a.a.an[], org.a.a.a.aI[]) org.a.a.a.aI
-   public static class_21 method_862(class_1[] var0, class_21[] var1) {
+   public static class_21 method_862(APPARENTLY_REALLY_IMPORTANT[] var0, class_21[] var1) {
       return class_266.method_628(var0, var1, (class_21)null);
    }
 
    // $FF: renamed from: a (org.a.a.a.an[], org.a.a.a.aI[], org.a.a.a.aI) org.a.a.a.aI
-   public static class_21 method_863(class_1[] var0, class_21[] var1, class_21 var2) {
+   public static class_21 method_863(APPARENTLY_REALLY_IMPORTANT[] var0, class_21[] var1, class_21 var2) {
       return class_266.method_628(var0, var1, var2);
    }
 
@@ -110,7 +110,7 @@ public class class_341 {
          class_21 var1 = (class_21)var0.remove((Object)null);
          int var2 = var0.size();
          class_21[] var3 = new class_21[var2];
-         class_1[] var4 = new class_1[var2];
+         APPARENTLY_REALLY_IMPORTANT[] var4 = new APPARENTLY_REALLY_IMPORTANT[var2];
          int var5 = 0;
 
          Entry var7;

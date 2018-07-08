@@ -13,9 +13,9 @@ final class class_309 extends class_305 {
    final Set field_501;
    // $FF: renamed from: c org.a.a.a.an
    // $FF: synthetic field
-   final class_1 field_502;
+   final APPARENTLY_REALLY_IMPORTANT field_502;
 
-   class_309(Set var1, Set var2, class_1 var3) {
+   class_309(Set var1, Set var2, APPARENTLY_REALLY_IMPORTANT var3) {
       this.field_500 = var1;
       this.field_501 = var2;
       this.field_502 = var3;

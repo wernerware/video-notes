@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.NavigableSet;
 import java.util.Set;
 import java.util.SortedSet;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.n.k
 public class class_85 extends class_84 implements NavigableSet {
@@ -13,11 +13,11 @@ public class class_85 extends class_84 implements NavigableSet {
    private static final long field_76 = 20150528L;
 
    // $FF: renamed from: a (java.util.NavigableSet, org.a.a.a.an) org.a.a.a.n.k
-   public static class_85 method_180(NavigableSet var0, class_1 var1) {
+   public static class_85 method_180(NavigableSet var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return new class_85(var0, var1);
    }
 
-   protected class_85(NavigableSet var1, class_1 var2) {
+   protected class_85(NavigableSet var1, APPARENTLY_REALLY_IMPORTANT var2) {
       super(var1, var2);
    }
 

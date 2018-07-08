@@ -1,9 +1,9 @@
 package org.a.a.a.e;
 
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.e.R
-public interface class_2 extends class_1 {
+public interface class_2 extends APPARENTLY_REALLY_IMPORTANT {
    // $FF: renamed from: a () org.a.a.a.an[]
-   class_1[] method_4();
+   APPARENTLY_REALLY_IMPORTANT[] method_4();
 }

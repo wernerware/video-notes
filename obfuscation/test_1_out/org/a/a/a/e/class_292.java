@@ -1,18 +1,18 @@
 package org.a.a.a.e;
 
 import java.io.Serializable;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_427;
 
 // $FF: renamed from: org.a.a.a.e.s
-public final class class_292 implements Serializable, class_1 {
+public final class class_292 implements Serializable, APPARENTLY_REALLY_IMPORTANT {
    // $FF: renamed from: b long
    private static final long field_451 = 7179106032121985545L;
    // $FF: renamed from: a org.a.a.a.an
-   public static final class_1 field_452 = new class_292();
+   public static final APPARENTLY_REALLY_IMPORTANT field_452 = new class_292();
 
    // $FF: renamed from: a () org.a.a.a.an
-   public static class_1 method_687() {
+   public static APPARENTLY_REALLY_IMPORTANT method_687() {
       return field_452;
    }
 

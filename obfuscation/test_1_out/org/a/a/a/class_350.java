@@ -21,7 +21,7 @@ public class class_350 {
    }
 
    // $FF: renamed from: a (org.a.a.a.af, org.a.a.a.an) org.a.a.a.af
-   public static class_28 method_898(class_28 var0, class_1 var1) {
+   public static class_28 method_898(class_28 var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_86.method_182(var0, var1);
    }
 

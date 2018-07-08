@@ -1,19 +1,19 @@
 package org.a.a.a.e;
 
 import java.io.Serializable;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.e.c
 public final class class_285 implements Serializable, class_2 {
    // $FF: renamed from: a long
    private static final long field_436 = 4189014213763186912L;
    // $FF: renamed from: b org.a.a.a.an
-   private final class_1 field_437;
+   private final APPARENTLY_REALLY_IMPORTANT field_437;
    // $FF: renamed from: c org.a.a.a.an
-   private final class_1 field_438;
+   private final APPARENTLY_REALLY_IMPORTANT field_438;
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.an) org.a.a.a.an
-   public static class_1 method_662(class_1 var0, class_1 var1) {
+   public static APPARENTLY_REALLY_IMPORTANT method_662(APPARENTLY_REALLY_IMPORTANT var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var0 != null && var1 != null) {
          return new class_285(var0, var1);
       } else {
@@ -21,7 +21,7 @@ public final class class_285 implements Serializable, class_2 {
       }
    }
 
-   public class_285(class_1 var1, class_1 var2) {
+   public class_285(APPARENTLY_REALLY_IMPORTANT var1, APPARENTLY_REALLY_IMPORTANT var2) {
       this.field_437 = var1;
       this.field_438 = var2;
    }
@@ -32,7 +32,7 @@ public final class class_285 implements Serializable, class_2 {
    }
 
    // $FF: renamed from: a () org.a.a.a.an[]
-   public class_1[] method_4() {
-      return new class_1[]{this.field_437, this.field_438};
+   public APPARENTLY_REALLY_IMPORTANT[] method_4() {
+      return new APPARENTLY_REALLY_IMPORTANT[]{this.field_437, this.field_438};
    }
 }

@@ -38,12 +38,12 @@ public class class_411 {
    }
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.g) org.a.a.a.g
-   public static class_34 method_1311(class_1 var0, class_34 var1) {
+   public static class_34 method_1311(APPARENTLY_REALLY_IMPORTANT var0, class_34 var1) {
       return class_343.method_872(var0, var1, false);
    }
 
    // $FF: renamed from: a (org.a.a.a.g, org.a.a.a.an) org.a.a.a.g
-   public static class_34 method_1312(class_34 var0, class_1 var1) {
+   public static class_34 method_1312(class_34 var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_343.method_872(var1, var0, true);
    }
 
@@ -68,22 +68,22 @@ public class class_411 {
    }
 
    // $FF: renamed from: b (org.a.a.a.an, org.a.a.a.g) org.a.a.a.g
-   public static class_34 method_1317(class_1 var0, class_34 var1) {
+   public static class_34 method_1317(APPARENTLY_REALLY_IMPORTANT var0, class_34 var1) {
       return class_287.method_665(var0, var1);
    }
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.g, org.a.a.a.g) org.a.a.a.g
-   public static class_34 method_1318(class_1 var0, class_34 var1, class_34 var2) {
+   public static class_34 method_1318(APPARENTLY_REALLY_IMPORTANT var0, class_34 var1, class_34 var2) {
       return class_287.method_666(var0, var1, var2);
    }
 
    // $FF: renamed from: a (org.a.a.a.an[], org.a.a.a.g[]) org.a.a.a.g
-   public static class_34 method_1319(class_1[] var0, class_34[] var1) {
+   public static class_34 method_1319(APPARENTLY_REALLY_IMPORTANT[] var0, class_34[] var1) {
       return class_264.method_623(var0, var1, (class_34)null);
    }
 
    // $FF: renamed from: a (org.a.a.a.an[], org.a.a.a.g[], org.a.a.a.g) org.a.a.a.g
-   public static class_34 method_1320(class_1[] var0, class_34[] var1, class_34 var2) {
+   public static class_34 method_1320(APPARENTLY_REALLY_IMPORTANT[] var0, class_34[] var1, class_34 var2) {
       return class_264.method_623(var0, var1, var2);
    }
 
@@ -100,7 +100,7 @@ public class class_411 {
          class_34 var1 = (class_34)var0.remove((Object)null);
          int var2 = var0.size();
          class_34[] var3 = new class_34[var2];
-         class_1[] var4 = new class_1[var2];
+         APPARENTLY_REALLY_IMPORTANT[] var4 = new APPARENTLY_REALLY_IMPORTANT[var2];
          int var5 = 0;
 
          for(Iterator var6 = var0.entrySet().iterator(); var6.hasNext(); ++var5) {

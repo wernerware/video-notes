@@ -81,12 +81,12 @@ public class class_400 {
    }
 
    // $FF: renamed from: a (java.util.Collection, org.a.a.a.an) java.util.List
-   public static List method_1151(Collection var0, class_1 var1) {
+   public static List method_1151(Collection var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return (List)class_415.method_1353(var0, var1, new ArrayList(var0.size()));
    }
 
    // $FF: renamed from: b (java.util.Collection, org.a.a.a.an) java.util.List
-   public static List method_1152(Collection var0, class_1 var1) {
+   public static List method_1152(Collection var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return (List)class_415.method_1356(var0, var1, new ArrayList(var0.size()));
    }
 
@@ -179,7 +179,7 @@ public class class_400 {
    }
 
    // $FF: renamed from: a (java.util.List, org.a.a.a.an) java.util.List
-   public static List method_1159(List var0, class_1 var1) {
+   public static List method_1159(List var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_82.method_172(var0, var1);
    }
 
@@ -199,7 +199,7 @@ public class class_400 {
    }
 
    // $FF: renamed from: b (java.util.List, org.a.a.a.an) int
-   public static int method_1163(List var0, class_1 var1) {
+   public static int method_1163(List var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var0 != null && var1 != null) {
          for(int var2 = 0; var2 < var0.size(); ++var2) {
             Object var3 = var0.get(var2);

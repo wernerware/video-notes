@@ -1,19 +1,19 @@
 package org.a.a.a.e;
 
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_34;
 
 // $FF: renamed from: org.a.a.a.e.af
 public class class_343 implements class_34 {
    // $FF: renamed from: a org.a.a.a.an
-   private final class_1 field_570;
+   private final APPARENTLY_REALLY_IMPORTANT field_570;
    // $FF: renamed from: b org.a.a.a.g
    private final class_34 field_571;
    // $FF: renamed from: c boolean
    private final boolean field_572;
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.g, boolean) org.a.a.a.g
-   public static class_34 method_872(class_1 var0, class_34 var1, boolean var2) {
+   public static class_34 method_872(APPARENTLY_REALLY_IMPORTANT var0, class_34 var1, boolean var2) {
       if (var0 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else if (var1 == null) {
@@ -23,7 +23,7 @@ public class class_343 implements class_34 {
       }
    }
 
-   public class_343(class_1 var1, class_34 var2, boolean var3) {
+   public class_343(APPARENTLY_REALLY_IMPORTANT var1, class_34 var2, boolean var3) {
       this.field_570 = var1;
       this.field_571 = var2;
       this.field_572 = var3;
@@ -42,7 +42,7 @@ public class class_343 implements class_34 {
    }
 
    // $FF: renamed from: a () org.a.a.a.an
-   public class_1 method_873() {
+   public APPARENTLY_REALLY_IMPORTANT method_873() {
       return this.field_570;
    }
 

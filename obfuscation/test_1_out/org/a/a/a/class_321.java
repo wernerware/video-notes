@@ -83,7 +83,7 @@ public class class_321 {
    }
 
    // $FF: renamed from: a (java.util.Set, org.a.a.a.an) java.util.Set
-   public static Set method_774(Set var0, class_1 var1) {
+   public static Set method_774(Set var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_83.method_176(var0, var1);
    }
 
@@ -108,7 +108,7 @@ public class class_321 {
    }
 
    // $FF: renamed from: a (java.util.SortedSet, org.a.a.a.an) java.util.SortedSet
-   public static SortedSet method_779(SortedSet var0, class_1 var1) {
+   public static SortedSet method_779(SortedSet var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_84.method_178(var0, var1);
    }
 
@@ -123,7 +123,7 @@ public class class_321 {
    }
 
    // $FF: renamed from: a (java.util.NavigableSet, org.a.a.a.an) java.util.SortedSet
-   public static SortedSet method_782(NavigableSet var0, class_1 var1) {
+   public static SortedSet method_782(NavigableSet var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_85.method_180(var0, var1);
    }
 

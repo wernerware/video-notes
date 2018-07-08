@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Set;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_22;
 import org.a.a.a.class_28;
 import org.a.a.a.a.class_364;
@@ -23,13 +23,13 @@ import org.a.a.a.n.class_83;
 // $FF: renamed from: org.a.a.a.c.f
 public class class_106 {
    // $FF: renamed from: a org.a.a.a.an
-   private final class_1 field_101;
+   private final APPARENTLY_REALLY_IMPORTANT field_101;
    // $FF: renamed from: b java.util.List
    private final List field_102 = new ArrayList();
    // $FF: renamed from: c java.util.List
    private final List field_103 = new ArrayList();
 
-   public class_106(class_1 var1) {
+   public class_106(APPARENTLY_REALLY_IMPORTANT var1) {
       if (var1 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else {

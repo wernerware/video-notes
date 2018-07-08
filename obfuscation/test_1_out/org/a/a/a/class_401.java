@@ -237,7 +237,7 @@ public class class_401 {
    }
 
    // $FF: renamed from: a (java.util.Iterator, org.a.a.a.an) java.util.Iterator
-   public static Iterator method_1200(Iterator var0, class_1 var1) {
+   public static Iterator method_1200(Iterator var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var0 == null) {
          throw new NullPointerException("Iterator must not be null");
       } else if (var1 == null) {
@@ -248,7 +248,7 @@ public class class_401 {
    }
 
    // $FF: renamed from: a (java.util.ListIterator, org.a.a.a.an) java.util.ListIterator
-   public static ListIterator method_1201(ListIterator var0, class_1 var1) {
+   public static ListIterator method_1201(ListIterator var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var0 == null) {
          throw new NullPointerException("ListIterator must not be null");
       } else if (var1 == null) {
@@ -506,7 +506,7 @@ public class class_401 {
    }
 
    // $FF: renamed from: b (java.util.Iterator, org.a.a.a.an) java.lang.Object
-   public static Object method_1225(Iterator var0, class_1 var1) {
+   public static Object method_1225(Iterator var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var1 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else {
@@ -524,7 +524,7 @@ public class class_401 {
    }
 
    // $FF: renamed from: c (java.util.Iterator, org.a.a.a.an) int
-   public static int method_1226(Iterator var0, class_1 var1) {
+   public static int method_1226(Iterator var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var1 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else {
@@ -542,12 +542,12 @@ public class class_401 {
    }
 
    // $FF: renamed from: d (java.util.Iterator, org.a.a.a.an) boolean
-   public static boolean method_1227(Iterator var0, class_1 var1) {
+   public static boolean method_1227(Iterator var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return method_1226(var0, var1) != -1;
    }
 
    // $FF: renamed from: e (java.util.Iterator, org.a.a.a.an) boolean
-   public static boolean method_1228(Iterator var0, class_1 var1) {
+   public static boolean method_1228(Iterator var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var1 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else {

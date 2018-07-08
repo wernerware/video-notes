@@ -1,7 +1,7 @@
 package org.a.a.a.e;
 
 import java.io.Serializable;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_21;
 
 // $FF: renamed from: org.a.a.a.e.A
@@ -9,14 +9,14 @@ public class class_258 implements Serializable, class_21 {
    // $FF: renamed from: a long
    private static final long field_378 = 8069309411242014252L;
    // $FF: renamed from: b org.a.a.a.an
-   private final class_1 field_379;
+   private final APPARENTLY_REALLY_IMPORTANT field_379;
    // $FF: renamed from: c org.a.a.a.aI
    private final class_21 field_380;
    // $FF: renamed from: d org.a.a.a.aI
    private final class_21 field_381;
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.aI, org.a.a.a.aI) org.a.a.a.aI
-   public static class_21 method_613(class_1 var0, class_21 var1, class_21 var2) {
+   public static class_21 method_613(APPARENTLY_REALLY_IMPORTANT var0, class_21 var1, class_21 var2) {
       if (var0 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else if (var1 != null && var2 != null) {
@@ -27,7 +27,7 @@ public class class_258 implements Serializable, class_21 {
    }
 
    // $FF: renamed from: a (org.a.a.a.an, org.a.a.a.aI) org.a.a.a.aI
-   public static class_21 method_614(class_1 var0, class_21 var1) {
+   public static class_21 method_614(APPARENTLY_REALLY_IMPORTANT var0, class_21 var1) {
       if (var0 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else if (var1 == null) {
@@ -37,7 +37,7 @@ public class class_258 implements Serializable, class_21 {
       }
    }
 
-   public class_258(class_1 var1, class_21 var2, class_21 var3) {
+   public class_258(APPARENTLY_REALLY_IMPORTANT var1, class_21 var2, class_21 var3) {
       this.field_379 = var1;
       this.field_380 = var2;
       this.field_381 = var3;
@@ -49,7 +49,7 @@ public class class_258 implements Serializable, class_21 {
    }
 
    // $FF: renamed from: a () org.a.a.a.an
-   public class_1 method_615() {
+   public APPARENTLY_REALLY_IMPORTANT method_615() {
       return this.field_379;
    }
 

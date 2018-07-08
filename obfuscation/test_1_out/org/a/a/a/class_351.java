@@ -570,7 +570,7 @@ public class class_351 {
    }
 
    // $FF: renamed from: a (java.util.Map, org.a.a.a.an, org.a.a.a.an) org.a.a.a.y
-   public static class_11 method_950(Map var0, class_1 var1, class_1 var2) {
+   public static class_11 method_950(Map var0, APPARENTLY_REALLY_IMPORTANT var1, APPARENTLY_REALLY_IMPORTANT var2) {
       return class_137.method_372(var0, var1, var2);
    }
 
@@ -625,7 +625,7 @@ public class class_351 {
    }
 
    // $FF: renamed from: a (java.util.SortedMap, org.a.a.a.an, org.a.a.a.an) java.util.SortedMap
-   public static SortedMap method_961(SortedMap var0, class_1 var1, class_1 var2) {
+   public static SortedMap method_961(SortedMap var0, APPARENTLY_REALLY_IMPORTANT var1, APPARENTLY_REALLY_IMPORTANT var2) {
       return class_138.method_376(var0, var1, var2);
    }
 

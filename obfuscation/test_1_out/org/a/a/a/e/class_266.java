@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_21;
 
 // $FF: renamed from: org.a.a.a.e.Z
@@ -12,14 +12,14 @@ public class class_266 implements Serializable, class_21 {
    // $FF: renamed from: a long
    private static final long field_396 = -6404460890903469332L;
    // $FF: renamed from: b org.a.a.a.an[]
-   private final class_1[] field_397;
+   private final APPARENTLY_REALLY_IMPORTANT[] field_397;
    // $FF: renamed from: c org.a.a.a.aI[]
    private final class_21[] field_398;
    // $FF: renamed from: d org.a.a.a.aI
    private final class_21 field_399;
 
    // $FF: renamed from: a (org.a.a.a.an[], org.a.a.a.aI[], org.a.a.a.aI) org.a.a.a.aI
-   public static class_21 method_628(class_1[] var0, class_21[] var1, class_21 var2) {
+   public static class_21 method_628(APPARENTLY_REALLY_IMPORTANT[] var0, class_21[] var1, class_21 var2) {
       class_289.method_675(var0);
       class_289.method_681(var1);
       if (var0.length != var1.length) {
@@ -44,12 +44,12 @@ public class class_266 implements Serializable, class_21 {
             return var1 == null ? class_276.method_647() : var1;
          } else {
             class_21[] var3 = new class_21[var2];
-            class_1[] var4 = new class_1[var2];
+            APPARENTLY_REALLY_IMPORTANT[] var4 = new APPARENTLY_REALLY_IMPORTANT[var2];
             int var5 = 0;
 
             for(Iterator var6 = var0.entrySet().iterator(); var6.hasNext(); ++var5) {
                Entry var7 = (Entry)var6.next();
-               var4[var5] = (class_1)var7.getKey();
+               var4[var5] = (APPARENTLY_REALLY_IMPORTANT)var7.getKey();
                var3[var5] = (class_21)var7.getValue();
             }
 
@@ -58,13 +58,13 @@ public class class_266 implements Serializable, class_21 {
       }
    }
 
-   private class_266(boolean var1, class_1[] var2, class_21[] var3, class_21 var4) {
+   private class_266(boolean var1, APPARENTLY_REALLY_IMPORTANT[] var2, class_21[] var3, class_21 var4) {
       this.field_397 = var1 ? class_289.method_673(var2) : var2;
       this.field_398 = var1 ? class_289.method_680(var3) : var3;
       this.field_399 = var4 == null ? class_276.method_647() : var4;
    }
 
-   public class_266(class_1[] var1, class_21[] var2, class_21 var3) {
+   public class_266(APPARENTLY_REALLY_IMPORTANT[] var1, class_21[] var2, class_21 var3) {
       this(true, var1, var2, var3);
    }
 
@@ -80,7 +80,7 @@ public class class_266 implements Serializable, class_21 {
    }
 
    // $FF: renamed from: a () org.a.a.a.an[]
-   public class_1[] method_630() {
+   public APPARENTLY_REALLY_IMPORTANT[] method_630() {
       return class_289.method_673(this.field_397);
    }
 

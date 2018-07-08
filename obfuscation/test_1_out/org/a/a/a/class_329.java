@@ -17,7 +17,7 @@ public class class_329 {
    }
 
    // $FF: renamed from: a (java.util.Queue, org.a.a.a.an) java.util.Queue
-   public static Queue method_821(Queue var0, class_1 var1) {
+   public static Queue method_821(Queue var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_87.method_184(var0, var1);
    }
 

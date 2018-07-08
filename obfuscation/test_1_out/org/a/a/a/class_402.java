@@ -53,7 +53,7 @@ public class class_402 {
    }
 
    // $FF: renamed from: a (java.lang.Iterable, org.a.a.a.an) java.lang.Iterable
-   public static Iterable method_1243(Iterable var0, class_1 var1) {
+   public static Iterable method_1243(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       method_1274(var0);
       if (var1 == null) {
          throw new NullPointerException("Predicate must not be null.");
@@ -146,27 +146,27 @@ public class class_402 {
    }
 
    // $FF: renamed from: b (java.lang.Iterable, org.a.a.a.an) java.lang.Object
-   public static Object method_1256(Iterable var0, class_1 var1) {
+   public static Object method_1256(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_401.method_1225(method_1276(var0), var1);
    }
 
    // $FF: renamed from: c (java.lang.Iterable, org.a.a.a.an) int
-   public static int method_1257(Iterable var0, class_1 var1) {
+   public static int method_1257(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_401.method_1226(method_1276(var0), var1);
    }
 
    // $FF: renamed from: d (java.lang.Iterable, org.a.a.a.an) boolean
-   public static boolean method_1258(Iterable var0, class_1 var1) {
+   public static boolean method_1258(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_401.method_1228(method_1276(var0), var1);
    }
 
    // $FF: renamed from: e (java.lang.Iterable, org.a.a.a.an) boolean
-   public static boolean method_1259(Iterable var0, class_1 var1) {
+   public static boolean method_1259(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_401.method_1227(method_1276(var0), var1);
    }
 
    // $FF: renamed from: f (java.lang.Iterable, org.a.a.a.an) long
-   public static long method_1260(Iterable var0, class_1 var1) {
+   public static long method_1260(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var1 == null) {
          throw new NullPointerException("Predicate must not be null.");
       } else {
@@ -214,35 +214,35 @@ public class class_402 {
    }
 
    // $FF: renamed from: g (java.lang.Iterable, org.a.a.a.an) java.util.List
-   public static List method_1267(Iterable var0, class_1 var1) {
+   public static List method_1267(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       if (var1 == null) {
          throw new NullPointerException("Predicate must not be null.");
       } else {
          class_32 var2 = class_409.method_1302(ArrayList.class);
-         class_1[] var3 = new class_1[]{var1};
+         APPARENTLY_REALLY_IMPORTANT[] var3 = new APPARENTLY_REALLY_IMPORTANT[]{var1};
          return method_1269(var0, var2, var3);
       }
    }
 
    // $FF: renamed from: a (java.lang.Iterable, org.a.a.a.an[]) java.util.List
-   public static List method_1268(Iterable var0, class_1... var1) {
+   public static List method_1268(Iterable var0, APPARENTLY_REALLY_IMPORTANT... var1) {
       class_32 var2 = class_409.method_1302(ArrayList.class);
       return method_1269(var0, var2, var1);
    }
 
    // $FF: renamed from: a (java.lang.Iterable, org.a.a.a.s, org.a.a.a.an[]) java.util.List
-   public static List method_1269(Iterable var0, class_32 var1, class_1... var2) {
+   public static List method_1269(Iterable var0, class_32 var1, APPARENTLY_REALLY_IMPORTANT... var2) {
       if (var0 == null) {
          Iterable var12 = method_1236();
          return method_1269(var12, var1, var2);
       } else if (var2 == null) {
          throw new NullPointerException("Predicates must not be null.");
       } else {
-         class_1[] var3 = var2;
+         APPARENTLY_REALLY_IMPORTANT[] var3 = var2;
          int var4 = var2.length;
 
          for(int var5 = 0; var5 < var4; ++var5) {
-            class_1 var6 = var3[var5];
+            APPARENTLY_REALLY_IMPORTANT var6 = var3[var5];
             if (var6 == null) {
                throw new NullPointerException("Predicate must not be null.");
             }

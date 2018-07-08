@@ -1,7 +1,7 @@
 package org.a.a.a.e;
 
 import java.io.Serializable;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_427;
 
 // $FF: renamed from: org.a.a.a.e.L
@@ -9,10 +9,10 @@ public final class class_234 implements Serializable, class_2 {
    // $FF: renamed from: a long
    private static final long field_339 = 3243449850504576071L;
    // $FF: renamed from: b org.a.a.a.an
-   private final class_1 field_340;
+   private final APPARENTLY_REALLY_IMPORTANT field_340;
 
    // $FF: renamed from: a (org.a.a.a.an) org.a.a.a.an
-   public static class_1 method_586(class_1 var0) {
+   public static APPARENTLY_REALLY_IMPORTANT method_586(APPARENTLY_REALLY_IMPORTANT var0) {
       if (var0 == null) {
          throw new NullPointerException("Predicate must not be null");
       } else {
@@ -20,7 +20,7 @@ public final class class_234 implements Serializable, class_2 {
       }
    }
 
-   public class_234(class_1 var1) {
+   public class_234(APPARENTLY_REALLY_IMPORTANT var1) {
       this.field_340 = var1;
    }
 
@@ -34,7 +34,7 @@ public final class class_234 implements Serializable, class_2 {
    }
 
    // $FF: renamed from: a () org.a.a.a.an[]
-   public class_1[] method_4() {
-      return new class_1[]{this.field_340};
+   public APPARENTLY_REALLY_IMPORTANT[] method_4() {
+      return new APPARENTLY_REALLY_IMPORTANT[]{this.field_340};
    }
 }

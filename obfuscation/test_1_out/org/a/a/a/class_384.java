@@ -68,7 +68,7 @@ public class class_384 implements Iterable {
    }
 
    // $FF: renamed from: a (org.a.a.a.an) org.a.a.a.u
-   public class_384 method_1116(class_1 var1) {
+   public class_384 method_1116(APPARENTLY_REALLY_IMPORTANT var1) {
       return method_1110(class_402.method_1243(this.field_675, var1));
    }
 
@@ -127,12 +127,12 @@ public class class_384 implements Iterable {
    }
 
    // $FF: renamed from: b (org.a.a.a.an) boolean
-   public boolean method_1127(class_1 var1) {
+   public boolean method_1127(APPARENTLY_REALLY_IMPORTANT var1) {
       return class_402.method_1258(this.field_675, var1);
    }
 
    // $FF: renamed from: c (org.a.a.a.an) boolean
-   public boolean method_1128(class_1 var1) {
+   public boolean method_1128(APPARENTLY_REALLY_IMPORTANT var1) {
       return class_402.method_1259(this.field_675, var1);
    }
 

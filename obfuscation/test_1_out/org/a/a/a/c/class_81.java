@@ -2,7 +2,7 @@ package org.a.a.a.c;
 
 import java.util.Collection;
 import java.util.Iterator;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.e.class_241;
 
 // $FF: renamed from: org.a.a.a.c.e
@@ -10,10 +10,10 @@ public class class_81 extends class_48 {
    // $FF: renamed from: b long
    private static final long field_71 = -5259182142076705162L;
    // $FF: renamed from: a org.a.a.a.an
-   protected final class_1 field_72;
+   protected final APPARENTLY_REALLY_IMPORTANT field_72;
 
    // $FF: renamed from: a (org.a.a.a.an) org.a.a.a.c.f
-   public static class_106 method_168(class_1 var0) {
+   public static class_106 method_168(APPARENTLY_REALLY_IMPORTANT var0) {
       return new class_106(var0);
    }
 
@@ -23,11 +23,11 @@ public class class_81 extends class_48 {
    }
 
    // $FF: renamed from: a (java.util.Collection, org.a.a.a.an) org.a.a.a.c.e
-   public static class_81 method_170(Collection var0, class_1 var1) {
+   public static class_81 method_170(Collection var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return new class_81(var0, var1);
    }
 
-   protected class_81(Collection var1, class_1 var2) {
+   protected class_81(Collection var1, APPARENTLY_REALLY_IMPORTANT var2) {
       super(var1);
       if (var2 == null) {
          throw new NullPointerException("Predicate must not be null.");

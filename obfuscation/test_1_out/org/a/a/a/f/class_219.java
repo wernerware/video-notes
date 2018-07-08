@@ -2,14 +2,14 @@ package org.a.a.a.f;
 
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.f.t
 public class class_219 implements ListIterator {
    // $FF: renamed from: a java.util.ListIterator
    private ListIterator field_306;
    // $FF: renamed from: b org.a.a.a.an
-   private class_1 field_307;
+   private APPARENTLY_REALLY_IMPORTANT field_307;
    // $FF: renamed from: c java.lang.Object
    private Object field_308;
    // $FF: renamed from: d boolean
@@ -28,12 +28,12 @@ public class class_219 implements ListIterator {
       this.field_306 = var1;
    }
 
-   public class_219(ListIterator var1, class_1 var2) {
+   public class_219(ListIterator var1, APPARENTLY_REALLY_IMPORTANT var2) {
       this.field_306 = var1;
       this.field_307 = var2;
    }
 
-   public class_219(class_1 var1) {
+   public class_219(APPARENTLY_REALLY_IMPORTANT var1) {
       this.field_307 = var1;
    }
 
@@ -98,12 +98,12 @@ public class class_219 implements ListIterator {
    }
 
    // $FF: renamed from: b () org.a.a.a.an
-   public class_1 method_562() {
+   public APPARENTLY_REALLY_IMPORTANT method_562() {
       return this.field_307;
    }
 
    // $FF: renamed from: a (org.a.a.a.an) void
-   public void method_563(class_1 var1) {
+   public void method_563(APPARENTLY_REALLY_IMPORTANT var1) {
       this.field_307 = var1;
    }
 

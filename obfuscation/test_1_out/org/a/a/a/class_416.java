@@ -30,7 +30,7 @@ public class class_416 {
    }
 
    // $FF: renamed from: a (org.a.a.a.b, org.a.a.a.an) org.a.a.a.b
-   public static class_22 method_1394(class_22 var0, class_1 var1) {
+   public static class_22 method_1394(class_22 var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_88.method_186(var0, var1);
    }
 
@@ -55,7 +55,7 @@ public class class_416 {
    }
 
    // $FF: renamed from: a (org.a.a.a.aC, org.a.a.a.an) org.a.a.a.aC
-   public static class_23 method_1399(class_23 var0, class_1 var1) {
+   public static class_23 method_1399(class_23 var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_89.method_188(var0, var1);
    }
 

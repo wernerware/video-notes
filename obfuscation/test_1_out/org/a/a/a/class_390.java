@@ -9,9 +9,9 @@ final class class_390 extends class_384 {
    final Iterable field_684;
    // $FF: renamed from: b org.a.a.a.an
    // $FF: synthetic field
-   final class_1 field_685;
+   final APPARENTLY_REALLY_IMPORTANT field_685;
 
-   class_390(Iterable var1, class_1 var2) {
+   class_390(Iterable var1, APPARENTLY_REALLY_IMPORTANT var2) {
       this.field_684 = var1;
       this.field_685 = var2;
    }

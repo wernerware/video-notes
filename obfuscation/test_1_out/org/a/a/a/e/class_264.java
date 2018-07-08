@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_34;
 
 // $FF: renamed from: org.a.a.a.e.Y
@@ -12,14 +12,14 @@ public class class_264 implements Serializable, class_34 {
    // $FF: renamed from: a long
    private static final long field_391 = 3518477308466486130L;
    // $FF: renamed from: b org.a.a.a.an[]
-   private final class_1[] field_392;
+   private final APPARENTLY_REALLY_IMPORTANT[] field_392;
    // $FF: renamed from: c org.a.a.a.g[]
    private final class_34[] field_393;
    // $FF: renamed from: d org.a.a.a.g
    private final class_34 field_394;
 
    // $FF: renamed from: a (org.a.a.a.an[], org.a.a.a.g[], org.a.a.a.g) org.a.a.a.g
-   public static class_34 method_623(class_1[] var0, class_34[] var1, class_34 var2) {
+   public static class_34 method_623(APPARENTLY_REALLY_IMPORTANT[] var0, class_34[] var1, class_34 var2) {
       class_289.method_675(var0);
       class_289.method_678(var1);
       if (var0.length != var1.length) {
@@ -42,12 +42,12 @@ public class class_264 implements Serializable, class_34 {
             return var1 == null ? class_243.method_597() : var1;
          } else {
             class_34[] var3 = new class_34[var2];
-            class_1[] var4 = new class_1[var2];
+            APPARENTLY_REALLY_IMPORTANT[] var4 = new APPARENTLY_REALLY_IMPORTANT[var2];
             int var5 = 0;
 
             for(Iterator var6 = var0.entrySet().iterator(); var6.hasNext(); ++var5) {
                Entry var7 = (Entry)var6.next();
-               var4[var5] = (class_1)var7.getKey();
+               var4[var5] = (APPARENTLY_REALLY_IMPORTANT)var7.getKey();
                var3[var5] = (class_34)var7.getValue();
             }
 
@@ -56,13 +56,13 @@ public class class_264 implements Serializable, class_34 {
       }
    }
 
-   private class_264(boolean var1, class_1[] var2, class_34[] var3, class_34 var4) {
+   private class_264(boolean var1, APPARENTLY_REALLY_IMPORTANT[] var2, class_34[] var3, class_34 var4) {
       this.field_392 = var1 ? class_289.method_673(var2) : var2;
       this.field_393 = var1 ? class_289.method_677(var3) : var3;
       this.field_394 = var4 == null ? class_243.method_597() : var4;
    }
 
-   public class_264(class_1[] var1, class_34[] var2, class_34 var3) {
+   public class_264(APPARENTLY_REALLY_IMPORTANT[] var1, class_34[] var2, class_34 var3) {
       this(true, var1, var2, var3);
    }
 
@@ -79,7 +79,7 @@ public class class_264 implements Serializable, class_34 {
    }
 
    // $FF: renamed from: a () org.a.a.a.an[]
-   public class_1[] method_625() {
+   public APPARENTLY_REALLY_IMPORTANT[] method_625() {
       return class_289.method_673(this.field_392);
    }
 

@@ -80,12 +80,12 @@ public class class_415 {
 
    // $FF: renamed from: d (java.lang.Iterable, java.lang.Iterable) java.util.Collection
    public static Collection method_1331(Iterable var0, Iterable var1) {
-      class_1 var2 = class_345.method_877();
+      APPARENTLY_REALLY_IMPORTANT var2 = class_345.method_877();
       return method_1332(var0, var1, var2);
    }
 
    // $FF: renamed from: a (java.lang.Iterable, java.lang.Iterable, org.a.a.a.an) java.util.Collection
-   public static Collection method_1332(Iterable var0, Iterable var1, class_1 var2) {
+   public static Collection method_1332(Iterable var0, Iterable var1, APPARENTLY_REALLY_IMPORTANT var2) {
       ArrayList var3 = new ArrayList();
       class_364 var4 = new class_364();
       Iterator var5 = var1.iterator();
@@ -270,7 +270,7 @@ public class class_415 {
    }
 
    // $FF: renamed from: a (java.lang.Iterable, org.a.a.a.an) java.lang.Object
-   public static Object method_1341(Iterable var0, class_1 var1) {
+   public static Object method_1341(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return var1 != null ? class_402.method_1256(var0, var1) : null;
    }
 
@@ -303,7 +303,7 @@ public class class_415 {
    }
 
    // $FF: renamed from: b (java.lang.Iterable, org.a.a.a.an) boolean
-   public static boolean method_1346(Iterable var0, class_1 var1) {
+   public static boolean method_1346(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       boolean var2 = false;
       if (var0 != null && var1 != null) {
          Iterator var3 = var0.iterator();
@@ -320,7 +320,7 @@ public class class_415 {
    }
 
    // $FF: renamed from: c (java.lang.Iterable, org.a.a.a.an) boolean
-   public static boolean method_1347(Iterable var0, class_1 var1) {
+   public static boolean method_1347(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return method_1346(var0, var1 == null ? null : class_326.method_813(var1));
    }
 
@@ -344,28 +344,28 @@ public class class_415 {
    }
 
    // $FF: renamed from: d (java.lang.Iterable, org.a.a.a.an) int
-   public static int method_1349(Iterable var0, class_1 var1) {
+   public static int method_1349(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return var1 == null ? 0 : (int)class_402.method_1260(var0, var1);
    }
 
    // $FF: renamed from: e (java.lang.Iterable, org.a.a.a.an) boolean
-   public static boolean method_1350(Iterable var0, class_1 var1) {
+   public static boolean method_1350(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return var1 == null ? false : class_402.method_1259(var0, var1);
    }
 
    // $FF: renamed from: f (java.lang.Iterable, org.a.a.a.an) boolean
-   public static boolean method_1351(Iterable var0, class_1 var1) {
+   public static boolean method_1351(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return var1 == null ? false : class_402.method_1258(var0, var1);
    }
 
    // $FF: renamed from: g (java.lang.Iterable, org.a.a.a.an) java.util.Collection
-   public static Collection method_1352(Iterable var0, class_1 var1) {
+   public static Collection method_1352(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       ArrayList var2 = var0 instanceof Collection ? new ArrayList(((Collection)var0).size()) : new ArrayList();
       return method_1353(var0, var1, var2);
    }
 
    // $FF: renamed from: a (java.lang.Iterable, org.a.a.a.an, java.util.Collection) java.util.Collection
-   public static Collection method_1353(Iterable var0, class_1 var1, Collection var2) {
+   public static Collection method_1353(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1, Collection var2) {
       if (var0 != null && var1 != null) {
          Iterator var3 = var0.iterator();
 
@@ -381,7 +381,7 @@ public class class_415 {
    }
 
    // $FF: renamed from: a (java.lang.Iterable, org.a.a.a.an, java.util.Collection, java.util.Collection) java.util.Collection
-   public static Collection method_1354(Iterable var0, class_1 var1, Collection var2, Collection var3) {
+   public static Collection method_1354(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1, Collection var2, Collection var3) {
       if (var0 != null && var1 != null) {
          Iterator var4 = var0.iterator();
 
@@ -399,13 +399,13 @@ public class class_415 {
    }
 
    // $FF: renamed from: h (java.lang.Iterable, org.a.a.a.an) java.util.Collection
-   public static Collection method_1355(Iterable var0, class_1 var1) {
+   public static Collection method_1355(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1) {
       ArrayList var2 = var0 instanceof Collection ? new ArrayList(((Collection)var0).size()) : new ArrayList();
       return method_1356(var0, var1, var2);
    }
 
    // $FF: renamed from: b (java.lang.Iterable, org.a.a.a.an, java.util.Collection) java.util.Collection
-   public static Collection method_1356(Iterable var0, class_1 var1, Collection var2) {
+   public static Collection method_1356(Iterable var0, APPARENTLY_REALLY_IMPORTANT var1, Collection var2) {
       if (var0 != null && var1 != null) {
          Iterator var3 = var0.iterator();
 
@@ -784,7 +784,7 @@ public class class_415 {
    }
 
    // $FF: renamed from: a (java.util.Collection, org.a.a.a.an) java.util.Collection
-   public static Collection method_1389(Collection var0, class_1 var1) {
+   public static Collection method_1389(Collection var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return class_81.method_170(var0, var1);
    }
 

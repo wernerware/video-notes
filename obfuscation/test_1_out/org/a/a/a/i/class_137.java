@@ -6,23 +6,23 @@ import java.io.Serializable;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 
 // $FF: renamed from: org.a.a.a.i.aE
 public class class_137 extends class_134 implements Serializable {
    // $FF: renamed from: d long
    private static final long field_143 = 7412622456128415156L;
    // $FF: renamed from: b org.a.a.a.an
-   protected final class_1 field_144;
+   protected final APPARENTLY_REALLY_IMPORTANT field_144;
    // $FF: renamed from: c org.a.a.a.an
-   protected final class_1 field_145;
+   protected final APPARENTLY_REALLY_IMPORTANT field_145;
 
    // $FF: renamed from: a (java.util.Map, org.a.a.a.an, org.a.a.a.an) org.a.a.a.i.aE
-   public static class_137 method_372(Map var0, class_1 var1, class_1 var2) {
+   public static class_137 method_372(Map var0, APPARENTLY_REALLY_IMPORTANT var1, APPARENTLY_REALLY_IMPORTANT var2) {
       return new class_137(var0, var1, var2);
    }
 
-   protected class_137(Map var1, class_1 var2, class_1 var3) {
+   protected class_137(Map var1, APPARENTLY_REALLY_IMPORTANT var2, APPARENTLY_REALLY_IMPORTANT var3) {
       super(var1);
       this.field_144 = var2;
       this.field_145 = var3;

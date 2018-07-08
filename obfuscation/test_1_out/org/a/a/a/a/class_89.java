@@ -2,7 +2,7 @@ package org.a.a.a.a;
 
 import java.util.Collection;
 import java.util.Comparator;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.class_22;
 import org.a.a.a.class_23;
 
@@ -12,11 +12,11 @@ public class class_89 extends class_88 implements class_23 {
    private static final long field_80 = 3448581314086406616L;
 
    // $FF: renamed from: a (org.a.a.a.aC, org.a.a.a.an) org.a.a.a.a.j
-   public static class_89 method_188(class_23 var0, class_1 var1) {
+   public static class_89 method_188(class_23 var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return new class_89(var0, var1);
    }
 
-   protected class_89(class_23 var1, class_1 var2) {
+   protected class_89(class_23 var1, APPARENTLY_REALLY_IMPORTANT var2) {
       super(var1, var2);
    }
 

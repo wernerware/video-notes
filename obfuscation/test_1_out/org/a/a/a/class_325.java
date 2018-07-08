@@ -3,7 +3,7 @@ package org.a.a.a;
 import java.util.Set;
 
 // $FF: renamed from: org.a.a.a.ax
-final class class_325 implements class_1 {
+final class class_325 implements APPARENTLY_REALLY_IMPORTANT {
    // $FF: renamed from: a java.util.Set
    // $FF: synthetic field
    final Set field_546;

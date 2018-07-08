@@ -2,7 +2,7 @@ package org.a.a.a.l;
 
 import java.util.Collection;
 import java.util.Queue;
-import org.a.a.a.class_1;
+import org.a.a.a.APPARENTLY_REALLY_IMPORTANT;
 import org.a.a.a.c.class_81;
 
 // $FF: renamed from: org.a.a.a.l.d
@@ -11,11 +11,11 @@ public class class_87 extends class_81 implements Queue {
    private static final long field_78 = 2307609000539943581L;
 
    // $FF: renamed from: a (java.util.Queue, org.a.a.a.an) org.a.a.a.l.d
-   public static class_87 method_184(Queue var0, class_1 var1) {
+   public static class_87 method_184(Queue var0, APPARENTLY_REALLY_IMPORTANT var1) {
       return new class_87(var0, var1);
    }
 
-   protected class_87(Queue var1, class_1 var2) {
+   protected class_87(Queue var1, APPARENTLY_REALLY_IMPORTANT var2) {
       super(var1, var2);
    }
 
