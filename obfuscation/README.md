@@ -1,5 +1,7 @@
 # Obfuscation and the Puzzles of De-obfuscation
 
+View [the video on YouTube](https://youtu.be/55xRZlKFBW4)
+
 Obfuscation is a common part of many build processes, especially in Android builds using ProGuard.  You can use ProGuard with any project generating zipped archives though, and it can be a good idea if you want to discourage abuse of your software.  De-obfuscation can be a daunting task, but sometimes a necessary one for purposes such as digital forensics and the prospect of a challenge for its own sake.  This video will show you the relationship between the everyday tasks a developer does and the process of finding meaning in the intentional mess left behind by a good obfuscator.
 
 I have added the files discussed here to this part of the repository so you can take a look at the results for yourself.
@@ -183,7 +185,7 @@ As you can see, there are string literals in various places, but in this example
 It may also be helpful to see which classes are used the most frequently, as figuring these out first may shed the most light on the others:
 
 ```bash
-grep -rh import . | sort | uniq -c | sort
+
 ```
 ```
 ... less frequently used ...
