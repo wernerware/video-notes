@@ -3,6 +3,8 @@ Welcome to Wernerware video notes, where you will find extended information on t
 
  - [Fernflower Decompiler for Java](/fernflower/README.md): Use Fernflower to decompile java code from .class and .jar files. This video shows you how to do it without IntelliJ
 
+- [Obfuscation and the Puzzles of De-obfuscation](/obfuscation/README.md): Java developers frequently use obfuscation to make it harder for others to take apart and change their code.  In this video I show you how to use ProGuard to obfuscate a .jar file and describe some of your options using Fernflower and Eclipse to begin taking it back apart.
+
 ## Upcoming
 
-- [Obfuscation and the Puzzles of De-obfuscation](/obfuscation/README.md): Java developers frequently use obfuscation to make it harder for others to take apart and change their code.  In this video I show you how to use ProGuard to obfuscate a .jar file and describe some of your options using Fernflower and Eclipse to begin taking it back apart.
+- [Closer Look at Decompilation Failures](/decompilation-failures/README.md): Decompilation is a difficult and even subjective activity.  In this video I discuss the process of decompilation more specifically and analyze one of the common errors you will see in the decompilation log for Fernflower.

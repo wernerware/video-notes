@@ -1,0 +1,2 @@
+# Decompilation Failures
+Decompilation is a difficult and even subjective activity.  In this video I discuss the process of decompilation more specifically and analyze one of the common errors you will see in the decompilation log for Fernflower.
